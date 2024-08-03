@@ -10,6 +10,15 @@ namespace DSAPractice.Tree
 {
     internal class Traversal
     {
+
+        ///                                             5
+        ///                                           /   \
+        ///                                         3       2
+        ///                                       /   \       \
+        ///                                     1      7        5
+        ///                                           /        /
+        ///                                         8         6
+        ///Tree
         public TreeNode<int> GetTree()
         {
             TreeNode<int> root = new TreeNode<int>(5);
