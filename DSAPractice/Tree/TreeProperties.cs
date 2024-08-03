@@ -5,12 +5,11 @@ namespace DSAPractice.Tree{
     public class TreeProperties{
 
         public int MaxDeptBinaryTree(TreeNode<int> root){
-            int dept = 0;
             
-            if(root != null) 
-                dept = Math.Max(MaxDeptBinaryTree(root.Left), MaxDeptBinaryTree(root.Right)) + 1;
+            if(root == null) return 0;
+                 
+            return 1 + Math.Max(MaxDeptBinaryTree(root.Left), MaxDeptBinaryTree(root.Right)) ;
 
-            return dept;
         }
 
     }
