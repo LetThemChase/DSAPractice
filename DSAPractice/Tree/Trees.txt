@@ -1,0 +1,14 @@
+1. Binary Tree : 1 max 2 chidren
+2. Full BT: 0 or 2 chidren
+3. Complete BT : All level completely filled except last level. Last level have nodes as left as possible.
+4. Perfect BT : All leaf noodes at same level.
+5. Balanced BT : Height is max log 2 (n) . 
+6. Degenerate BT : Skew tree. Every node have only 1 child.
+
+
+Balanced BT : 
+
+1. Height is max log 2 (n). 
+2. Math.Abs( left height - right height) <= 1
+
+How to check : In height Return -1 if not balanced.
